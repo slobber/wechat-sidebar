@@ -1,0 +1,15 @@
+{
+  "extensionName": {
+    "message": "微信侧边栏",
+    "description": "微信侧边栏."
+  },
+
+  "extensionDescription": {
+    "message": "在侧边栏中使用微信",
+    "description": ""
+  },
+  "sidebarTitle": {
+    "message": "微信",
+    "description": "微信侧边栏."
+  }
+}

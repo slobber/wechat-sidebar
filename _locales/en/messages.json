@@ -1,0 +1,15 @@
+{
+  "extensionName": {
+    "message": "WeChat sidebar",
+    "description": "WeChat in sidebar."
+  },
+
+  "extensionDescription": {
+    "message": "Talk to your friends with WeChat in sidebar",
+    "description": ""
+  },
+  "sidebarTitle": {
+    "message": "WeChat",
+    "description": "WeChat in sidebar."
+  }
+}
