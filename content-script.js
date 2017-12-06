@@ -68,7 +68,7 @@ var injectScript = `$(document).on('click', '.read_item', function(e) {
 })`;
 var body = document.body || document.getElementsByTagName('body')[0], script = document.createElement('script');
 script.type = 'text/javascript';
-script.innerHTML = injectScript;
+script.appendChild(document.createTextNode(injectScript));
 body.appendChild(script);
 
 var backButton = document.createElement('button');
