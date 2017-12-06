@@ -4,7 +4,7 @@
   "name": "__MSG_extensionName__",
   "description": "__MSG_extensionDescription__",
   "author": "Nandi Wang",
-  
+
   "version": "1.0",
   "default_locale": "en",
   "applications": {
@@ -14,7 +14,7 @@
   },
 
   "sidebar_action": {
-    "default_icon": "icons/weixin.svg",
+    "default_icon": "icons/wechat.png",
     "default_title" : "__MSG_sidebarTitle__",
     "default_panel": "sidebar/panel.html"
   },
