@@ -28,8 +28,8 @@ var closestParent = function(el, selector, includeSelf) {
   return null;
 };
 
-var css = `@keyframes slide-left {0%{left:0px;}100%{right:-1px}}
-@keyframes slide-right {0%{right:-1px;}100%{left:0px;}}
+var css = `@keyframes slide-left {0%{left:0px;}100%{left:-999px}}
+@keyframes slide-right {0%{left:-999px;}100%{left:0px;}}
 body{overflow:hidden;}
 body *{text-align:unset;box-sizing:content-box;}
 .login{min-width:100%;}
@@ -38,11 +38,13 @@ body *{text-align:unset;box-sizing:content-box;}
 .header .info .nickname .opt{float:right;}
 .panel{position:absolute;z-index:3092;left:0px;top:0px;width:100%;min-width:275px;animation:slide-right .3s linear;}
 #chatArea,.reader{position:absolute;left:0px;top:0px;width:100%}
-.panel.hide{animation:slide-left .5s ease-in;right:-1px;left:-100%}
+.panel.hide{animation:slide-left .5s ease-in;left:-999px}
 .search_bar{width:80%}
 .search_bar .frm_search {width:100%;box-sizing:border-box;}
 .message_empty{width:100%}
 .reader .box_bd{padding-left:0px;padding-right:0px;}
+.exp_cont {margin:10px;}
+.qq_face,.emoji_face {width:100%;height:auto}
 .main{min-width:275px;}
 .main_inner{min-width:100%}
 @media(min-width:275px)and(max-width:370px){.profile .meta_area{padding-left:102px;}}
