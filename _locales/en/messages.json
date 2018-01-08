@@ -11,5 +11,8 @@
   "sidebarTitle": {
     "message": "WeChat",
     "description": "WeChat in sidebar."
+  },
+  "toolbarTitle": {
+    "message": "WeChat sidebar"
   }
 }

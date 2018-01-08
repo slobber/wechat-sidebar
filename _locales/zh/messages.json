@@ -11,5 +11,8 @@
   "sidebarTitle": {
     "message": "微信",
     "description": "微信侧边栏."
+  },
+  "toolbarTitle": {
+    "message": "微信侧边栏"
   }
 }

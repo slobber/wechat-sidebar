@@ -15,3 +15,9 @@ function handleMessage(request, sender, sendResponse) {
 }
 
 browser.runtime.onMessage.addListener(handleMessage);
+
+function handleToolbarClick(tab) {
+  browser.sidebarAction.open();
+}
+
+browser.browserAction.onClicked.addListener(handleToolbarClick);
